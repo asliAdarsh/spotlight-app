@@ -1,10 +1,10 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-export default function Index() {
+export default function Notification() {
   return (
     <View>
-      <Text>Home Page</Text>
+      <Text>Notification</Text>
     </View>
   )
 }
