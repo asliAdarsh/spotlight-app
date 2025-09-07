@@ -18,7 +18,7 @@ export default function TabLayout() {
         borderTopWidth: 0,
         height: 40,
         paddingBottom: 8,
-      }
+      },
      }}
     >
       <Tabs.Screen name='index' 

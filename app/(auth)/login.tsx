@@ -7,13 +7,13 @@ import { useRouter } from "expo-router";
 import { useSSO } from "@clerk/clerk-expo";
 
     
-    export default function Login() {
+    export default function Login() { 
     const { startSSOFlow } = useSSO();
     const router = useRouter();
   
     const handleGoogleSignIn = async () => {
       try {
-        const { createdSessionId, setActive } = await startSSOFlow({ strategy: "oauth_google" });
+        const { createdSessionId, setActive } = await startSSOFlow({ strategy: "oauth_google" }); 
   
         if (setActive && createdSessionId) {
           setActive({ session: createdSessionId });
